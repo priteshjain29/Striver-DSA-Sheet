@@ -1,5 +1,5 @@
 vector<vector<int>> levelOrder(Node* root){
-	if(root == NULL) return;
+	if(root == NULL) return {};
 	vector<vector<int>> ans;
 	queue <Node*> q;
 	q.push(root);
